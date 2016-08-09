@@ -4,11 +4,12 @@ category: info
 tags: build
 ---
 <head>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <link rel="shortcut icon" href="images/favicon.ico"/>
+<link rel="stylesheet" href="stylesheets/styles.css">
+<link rel="stylesheet" href="stylesheets/github-dark.css">
+<link rel="shortcut icon" href="images/favicon.ico"/>
 </head>
 <div class="wrapper">
+<section>
 
 
 # Specifications
@@ -53,13 +54,18 @@ We are currently testing on 64-bit Leap 42.1 (OpenSuSE package repository inform
 
 OpenSuSE RPMs:
 
-       + gcc
-       + gcc-c++
-       + Make
-       + CMake
-       + git
-       + glu-devel
-       + libXmu-devel
-       + CMake-gui
-       + CMake
-</div>       
++ gcc
++ gcc-c++
++ Make
++ CMake
++ git
++ glu-devel
++ libXmu-devel
++ CMake-gui
++ CMake
+</section>
+</div>
+<footer>
+<p>Project maintained by <a href="https://github.com/SCIInstitute">SCIInstitute</a></p>
+<p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+</footer>
