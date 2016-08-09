@@ -13,10 +13,10 @@ Table of Contents
         * [CMake](#cmake)
         * [VTK](#vtk)
         * [ITK](#itk)
-    * [Compiling Shapeworks Studio](#compiling-shapeworks-studio)
+    * [Compiling From Source](#compiling-from-source)
         * [Compiling ITK](#compiling-itk)
         * [Compiling VTK](#compiling-vtk)
-        * [Compiling ShapeworksStudio](#compiling-shapeworks-studio-1)
+        * [Compiling ShapeworksStudio](#compiling-shapeworks-studio)
             * [Unix and OSX](#unix-and-osx)
             * [Windows](#windows)
             * [All Platforms](#all-platforms)
@@ -46,7 +46,7 @@ from source code. Gcc/Clang/MSVC with C++11 support is required.
 [ITK](http://www.itk.org/) Insight Toolkit (ITK 4.7+ recommended) 
 
 
-## Compiling Shapeworks Studio
+## Compiling From Source
 
 Once you have obtained a compatible compiler and installed Qt on your system, you need to
 download and install CMake (http://www.cmake.org) to actually build the software.
