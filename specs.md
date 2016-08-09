@@ -3,6 +3,10 @@ title: Platform Specifications
 category: info
 tags: build
 ---
+<head>
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+</head>
+
 
 # Specifications
 
