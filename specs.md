@@ -42,9 +42,9 @@ Consult the distribution-specific section for additional package information and
 
 #### OpenSuSE
 
-       We are currently testing on 64-bit Leap 42.1 (OpenSuSE package repository information).
+We are currently testing on 64-bit Leap 42.1 (OpenSuSE package repository information).
 
-       OpenSuSE RPMs:
+OpenSuSE RPMs:
 
        + gcc
        + gcc-c++
