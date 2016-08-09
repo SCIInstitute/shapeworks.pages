@@ -1,0 +1,59 @@
+---
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Shapeworks Studio Pages by SCIInstitute</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Shapeworks Studio Pages</h1>
+        <p>Web pages for Shapeworks Studio</p>
+        <p class="view"><a href="https://github.com/SCIInstitute/ShapeworksStudio">View the Project on GitHub <small>SCIInstitute/ShapeworksStudio</small></a></p>
+        <ul>
+          <!-- <li><a href="https://github.com/SCIInstitute/seg3d.pages/zipball/master">Download <strong>ZIP File</strong></a></li> -->
+          <!-- <li><a href="https://github.com/SCIInstitute/seg3d.pages/tarball/master">Download <strong>TAR Ball</strong></a></li> -->
+          <li><a href="https://github.com/SCIInstitute/ShapeworksStudio">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+      <p>ShapeworksStudio (<a href="https://www.sci.utah.edu/software/shapeworks.html">https://www.sci.utah.edu/software/shapeworks.html</a>) is a free shape analysis tool developed by the NIH Center for Integrative Biomedical Computing at the University of Utah Scientific Computing and Imaging (SCI) Institute.</p>
+
+      <h2>Installation</h2>
+
+      <p>Check the <a href={{ site.github.url }}/specs.html>Platform Specifications</a> for system requirements.</p>
+
+      <p><a href="https://github.com/SCIInstitute/ShapeworksStudio/releases">Installers</a> are provided for Windows and Mac OS X. Linux users need to build ShapeworksStudio from <a href={{ site.github.url }}/build.html>source</a>.</p>
+
+      <h2>Documentation</h2>
+
+        <ul>
+        {% for page in site.pages %}
+          {% if page.category == "info" %}
+           <h3> <a href={{ site.github.url }}{{ page.url }}>{{ page.title }}</a> </h3>
+          {% endif %}
+        {% endfor %}
+        <h3><a href={{ site.github.url }}/doxygen/html/index.html>Doxygen Code Reference</a></h3>
+        </ul>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/SCIInstitute">SCIInstitute</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
