@@ -27,7 +27,7 @@ Studio runs with no command-line arguments.
 <br/><br/>
 You Should have a Qt window that looks similar to the one below.
 <br/><br/>
-<img src="https://sciinstitute.github.io/shapeworks.pages/images/Application.png">
+<img src="https://sciinstitute.github.io/shapeworks.pages/images/Application.png" width=300px>
 <br/><br/>
 The application has tools on the left, the rendering window, 
 view options on the lower bar, a small file menu, and a
@@ -41,6 +41,7 @@ or going to *File -> Import Images...* <br/> Your images will appear on the disp
 <br/><br/>
 You can delete images by selecting the image of choice and clicking the red "x" button at the bottom. If only one image 
 is loaded, it may still display when it is deleted. It will be replaced by the next image load. 
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ## Groom 
@@ -142,6 +143,7 @@ between shapes.
 in decreasing values to depict statistical relevancy.
 <br/><br/>
 *Regression* This option is not yet available.
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ## Rendering Window
 The render window has a few shortcuts to viewing options.
