@@ -11,8 +11,8 @@ Table of Contents
     * [Dependencies](#dependencies)
         * [Qt](#qt)
         * [CMake](#cmake)
-        * [VTK](#vtk)
         * [ITK](#itk)
+        * [VTK](#vtk)
     * [Compiling From Source](#compiling-from-source)
         * [Compiling ITK](#compiling-itk)
         * [Compiling VTK](#compiling-vtk)
@@ -37,14 +37,13 @@ from source code. Gcc/Clang/MSVC with C++11 support is required.
 
 [CMake](https://cmake.org/) versions 2.8 - 3.4 are supported.
 
-### VTK
-
-[VTK](http://www.vtk.org/) Visualization ToolKit (VTK 7. recommended) 
-
 ### ITK
 
 [ITK](http://www.itk.org/) Insight Toolkit (ITK 4.7+ recommended) 
 
+### VTK
+
+[VTK](http://www.vtk.org/) Visualization ToolKit (VTK 7. recommended) 
 
 ## Compiling From Source
 
@@ -84,7 +83,7 @@ Configure with:
 ``` BUILD_EXAMPLES=FALSE ``` <br/>
 ``` BUILD_TESTING=FALSE ``` <br/>
 <br/>
-Then build ITK.
+Then build VTK.
 <br/><br/>
 ``` make -j12 all ```
 <br/><br/>
