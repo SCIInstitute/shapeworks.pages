@@ -138,4 +138,4 @@ The ShapeworksStudio application will be built in bin/Application.
 # Shapeworks Studio Support
 
 For questions and issues regarding building the software from source,
-    please email our support list: [shapeworks@sci.utah.edu](mailto:shapeworks@sci.utah.edu)
+    please email our support list: [shapeworks@sci.utah.edu](mailto:shapeworks-users@sci.utah.edu)
