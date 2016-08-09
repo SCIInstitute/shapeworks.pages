@@ -13,6 +13,9 @@ tags: manual
     * [Data](#data)
     * [Groom](#groom)
     * [Optimize](#optimize)
+        * [Optimize](#optimize-1)
+        * [Reconstruction](#reconstruction)
+    * [Rendering Window](#rendering-window)
     * [Analysis](#analysis)
     * [Preferences](#preferences)
     * [File Menu](#file-menu)
@@ -110,7 +113,7 @@ triangles are used instead. You can re-run with different Optimizations as neede
 *Restore Defaults* Click this to restore all values to their program defaults.
 <br/><br/>
 
-<h2>Analysis</h2>
+### Analysis
 <img src="https://sciinstitute.github.io/shapeworks.pages/images/Analysis.png" align="right" hspace="20">
 Here is where all the statistical options are available to the user.
 <br/><br/>
@@ -171,7 +174,7 @@ coorespondance points. You must run the optimize step for this to be available.
 *Zoom* This slider allows the user to zoom in or out to view more/less samples. This is mainly useful in the "All Samples"
 mode of the analysis tool. Zoom is automatically selected as a user switches between analysis modes.
 
-##Preferences
+## Preferences
 <img src="https://sciinstitute.github.io/shapeworks.pages/images/pref-general.png" align="right" hspace="20">
 *Color Scheme* Select the color scheme for the rendering window.
 <br/><br/>
@@ -196,7 +199,7 @@ between application runs for convenience.
 *OK* Click this when you are done changing options.
 <br/><br/>
 
-##File Menu
+## File Menu
 * Start a new project
 * Open and save projects
 * Set the data directory for where generated images will be written when a project is saved.
