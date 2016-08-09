@@ -18,7 +18,7 @@ Table of Contents
         * [Compiling VTK](#compiling-vtk)
         * [Compiling ShapeworksStudio](#compiling-shapeworks-studio-1)
             * [Unix and OSX](#unix-and-osx)
-            * [Windows](#windows-1)
+            * [Windows](#windows)
             * [All Platforms](#all-platforms)
 * [ShapeworksStudio Support](#shapeworks-studio-support)
 
@@ -39,11 +39,11 @@ from source code. Gcc/Clang/MSVC with C++11 support is required.
 
 ### VTK
 
-Visualization ToolKit (VTK 7. recommended) (http://www.vtk.org/)
+[VTK](http://www.vtk.org/)Visualization ToolKit (VTK 7. recommended) 
 
 ### ITK
 
-Insight Toolkit (ITK 4.7+ recommended) (http://www.itk.org/)
+[ITK](http://www.itk.org/)Insight Toolkit (ITK 4.7+ recommended) 
 
 
 ## Compiling Shapeworks Studio
@@ -57,28 +57,28 @@ CMake is a platform independent configuring system that is used for generating M
 Configure with:
 <br/>
 ```
-CMAKE_CXX_FLAGS+="-std=c++11"
-BUILD_SHARED_LIBS=FALSE
-BUILD_EXAMPLES=FALSE
-BUILD_TESTING=FALSE
-ITKV3_COMPATIBILTY=TRUE
+CMAKE_CXX_FLAGS+="-std=c++11"<br/>
+BUILD_SHARED_LIBS=FALSE<br/>
+BUILD_EXAMPLES=FALSE<br/>
+BUILD_TESTING=FALSE<br/>
+ITKV3_COMPATIBILTY=TRUE<br/>
 ```
-<br/>
+<br/><br/>
 Then build ITK.
-<br/>
+<br/><br/>
 ```
-make -j12 all
+make -j12 all<br/>
 ```
-<br/>
+<br/><br/>
 You may need to use the CMake GUI in Windows. It is best to configure with "NMake Makefiles". Once you have configured and generated, you can build in a command prompt.
-<br/>
+<br/><br/>
 ```
 cd C:\ITK_DIR
 mkdir build
 cd build
 nmake all
 ```
-<br/>
+<br/><br/>
 
 ### Compiling VTK
 
