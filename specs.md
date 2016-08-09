@@ -8,6 +8,7 @@ tags: build
     <link rel="stylesheet" href="stylesheets/github-dark.css">
     <link rel="shortcut icon" href="images/favicon.ico"/>
 </head>
+<div class="wrapper">
 
 
 # Specifications
@@ -61,3 +62,4 @@ OpenSuSE RPMs:
        + libXmu-devel
        + CMake-gui
        + CMake
+</div>       
