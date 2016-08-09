@@ -1,5 +1,5 @@
 ---
-title: Build
+title: Build Instructions
 category: info
 tags: build
 ---
