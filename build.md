@@ -61,90 +61,71 @@ Configure with:
 ``` BUILD_EXAMPLES=FALSE ``` <br/>
 ``` BUILD_TESTING=FALSE ``` <br/>
 ``` ITKV3_COMPATIBILTY=TRUE ``` <br/>
-```
 <br/><br/>
 Then build ITK.
 <br/><br/>
-```
-make -j12 all<br/>
-```
+``` make -j12 all ``` <br/>
 <br/><br/>
 You may need to use the CMake GUI in Windows. It is best to configure with "NMake Makefiles". Once you have configured and generated, you can build in a command prompt.
 <br/><br/>
-```
-cd C:\ITK_DIR
-mkdir build
-cd build
-nmake all
-```
+``` cd C:\ITK_DIR ``` <br/>
+``` mkdir build ``` <br/>
+``` cd build ``` <br/>
+``` nmake all ``` <br/>
 <br/><br/>
 
 ### Compiling VTK
 
 Configure with:
-<br/>
-```
-VTK_Group_Qt=ON
-VTK_QT_VERSION=5
-Qt5_DIR="/PATH/TO/YOUR/Qt5"
-BUILD_SHARED_LIBS=FALSE
-BUILD_EXAMPLES=FALSE
-BUILD_TESTING=FALSE
-```
-<br/>
+<br/> <br/>
+``` VTK_Group_Qt=ON ``` <br/>
+``` VTK_QT_VERSION=5 ``` <br/>
+``` Qt5_DIR="/PATH/TO/YOUR/Qt5 ``` <br/>"
+``` BUILD_SHARED_LIBS=FALSE ``` <br/>
+``` BUILD_EXAMPLES=FALSE ``` <br/>
+``` BUILD_TESTING=FALSE ``` <br/>
+<br/><br/>
 Then build ITK.
-<br/>
-```
-make -j12 all
-```
-<br/>
+<br/><br/>
+``` make -j12 all ```
+<br/><br/>
 You may need to use the CMake GUI in Windows. It is best to configure with "NMake Makefiles". Once you have configured and generated, you can build in a command prompt.
-<br/>
-```
-cd C:\VTK_DIR
-mkdir build
-cd build
-nmake all
-```
-<br/>
+<br/><br/>
+``` cd C:\VTK_DIR ``` <br/>
+``` mkdir build ``` <br/>
+``` cd build ``` <br/>
+``` nmake all ``` <br/>
+<br/><br/>
 
 ### Compiling Shapeworks Studio
 Once CMake, Qt, ITK, and VTK have been installed and/or built, run CMake from your build directory and give a path to the ShapeworksStudio directory containing the master CMakeLists.txt file.
 
 #### Unix and OSX
-<br/>
-```
-mkdir ShapeWorksStudio/build
-cd ShapeWorksStudio/build
-cmake -DVTK_DIR=Path/To/Your/VTK/build -DITK_DIR=Path/To/Your/ITK/build -DQT_DIR=Path/To/Your/Qt5/build -DCMAKE_BUILD_TYPE=Release ../src
-make
-```
+``` mkdir ShapeWorksStudio/build ``` <br/>
+``` cd ShapeWorksStudio/build ``` <br/>
+``` cmake -DVTK_DIR=Path/To/Your/VTK/build -DITK_DIR=Path/To/Your/ITK/build -DQT_DIR=Path/To/Your/Qt5/build -DCMAKE_BUILD_TYPE=Release ../src ``` <br/>
+``` make ``` <br/>
 <br/>
 Depending on how you obtained Qt, you may need to specify other Qt directories:
-<br/>
+<br/><br/>
+``` -DQT5WidgetsDIR="Path/To/Qt/5.6/gcc/lib/cmake/Qt5Widgets" ``` <br/>
+``` -DQT5OpenGLDIR="Path/To/Qt/5.6/gcc/lib/cmake/Qt5OpenGL" ``` <br/>
 ```
--DQT5WidgetsDIR="Path/To/Qt/5.6/gcc/lib/cmake/Qt5Widgets"
--DQT5OpenGLDIR="Path/To/Qt/5.6/gcc/lib/cmake/Qt5OpenGL"
-```
-<br/>
 #### Windows
 Open a Visual Studio 64 bit Native Tools Command Prompt.
 Follow these commands:
-<br/>
-```
-mkdir C:\Path\To\ShapeWorksStudio\build
-cd C:\Path\To\ShapeWorksStudio\build
-cmake -G "NMake Makefiles" -DVTK_DIR="C:/Path/To/Your/VTK/build" -DITK_DIR="C:/Path/To/Your/ITK/build" -DQT_DIR="C:/Path/To/Your/Qt5/build" -DCMAKE_BUILD_TYPE=Release ../src
-nmake
-```
+<br/><br/>
+``` mkdir C:\Path\To\ShapeWorksStudio\build ``` <br/>
+``` cd C:\Path\To\ShapeWorksStudio\build ``` <br/>
+``` cmake -G "NMake Makefiles" -DVTK_DIR="C:/Path/To/Your/VTK/build" -DITK_DIR="C:/Path/To/Your/ITK/build" -DQT_DIR="C:/Path/To/Your/Qt5/build" -DCMAKE_BUILD_TYPE=Release ../src ``` <br/>
+``` nmake ``` <br/>
 <br/>
 **NOTE** Be sure to copy the Qt5 DLL files to the Executable directory for the program to run.
-<br/>
-```
-C:\Qt5_DIR\msvc2015\5.6\bin\Qt5Widgets.dll
-C:\Qt5_DIR\msvc2015\5.6\bin\Qt5Core.dll
-C:\Qt5_DIR\msvc2015\5.6\bin\Qt5OpenGL.dll
-C:\Qt5_DIR\msvc2015\5.6\bin\Qt5Gui.dll
+<br/><br/>
+``` C:\Qt5_DIR\msvc2015\5.6\bin\Qt5Widgets.dll ``` <br/>
+``` C:\Qt5_DIR\msvc2015\5.6\bin\Qt5Core.dll ``` <br/>
+``` C:\Qt5_DIR\msvc2015\5.6\bin\Qt5OpenGL.dll ``` <br/>
+``` C:\Qt5_DIR\msvc2015\5.6\bin\Qt5Gui.dll ``` <br/>
 ```
 <br/>
 #### All Platforms
