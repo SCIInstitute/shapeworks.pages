@@ -55,13 +55,12 @@ CMake is a platform independent configuring system that is used for generating M
 ### Compiling ITK
 
 Configure with:
-<br/>
-```
-CMAKE_CXX_FLAGS+="-std=c++11"<br/>
-BUILD_SHARED_LIBS=FALSE<br/>
-BUILD_EXAMPLES=FALSE<br/>
-BUILD_TESTING=FALSE<br/>
-ITKV3_COMPATIBILTY=TRUE<br/>
+<br/><br/>
+``` CMAKE_CXX_FLAGS+="-std=c++11" ``` <br/>
+``` BUILD_SHARED_LIBS=FALSE ``` <br/>
+``` BUILD_EXAMPLES=FALSE ``` <br/>
+``` BUILD_TESTING=FALSE ``` <br/>
+``` ITKV3_COMPATIBILTY=TRUE ``` <br/>
 ```
 <br/><br/>
 Then build ITK.
