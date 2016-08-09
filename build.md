@@ -108,6 +108,7 @@ Depending on how you obtained Qt, you may need to specify other Qt directories:
 <br/><br/>
 ``` -DQT5WidgetsDIR="Path/To/Qt/5.6/gcc/lib/cmake/Qt5Widgets" ``` <br/>
 ``` -DQT5OpenGLDIR="Path/To/Qt/5.6/gcc/lib/cmake/Qt5OpenGL" ``` <br/>
+
 #### Windows
 Open a Visual Studio 64 bit Native Tools Command Prompt.
 Follow these commands:
@@ -123,7 +124,7 @@ Follow these commands:
 ``` C:\Qt5_DIR\msvc2015\5.6\bin\Qt5Core.dll ``` <br/>
 ``` C:\Qt5_DIR\msvc2015\5.6\bin\Qt5OpenGL.dll ``` <br/>
 ``` C:\Qt5_DIR\msvc2015\5.6\bin\Qt5Gui.dll ``` <br/>
-<br/>
+
 #### All Platforms
 Your paths may differ slightly based on your Qt5, ITK, and VTK versions and where they are installed/built.
 
