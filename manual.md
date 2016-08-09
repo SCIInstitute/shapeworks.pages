@@ -218,4 +218,4 @@ between application runs for convenience.
 * On OSX, full screen mode has a widget bug visualization problem for the left panel. Future Qt releases may fix this.
 
 # Contact and Bug Reports
-Please email any questions to Shapeworks-users@sci.utah.edu . If there problems or bugs, please report them using the issue tracker on GitHub. This includes feature requests. Feel free to add improvements using git pull requests. 
+Please email any questions to <a href="mailto:shapeworks-users@sci.utah.edu">shapeworks-users@sci.utah.edu</a> . If there problems or bugs, please report them using the <a href= "https://github.com/SCIInstitute/ShapeWorksStudio/issues" >issue tracker on GitHub</a>. This includes feature requests. Feel free to add improvements using git pull requests. 
