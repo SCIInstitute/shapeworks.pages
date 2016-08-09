@@ -3,9 +3,11 @@ title: Build
 category: info
 tags: build
 ---
+<head>
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+</head>
 
-Table of Contents
-=================
+# Table of Contents
 
 * [Installing ShapeworksStudio from source](#installing-shapeworks-studio-from-source)
     * [Dependencies](#dependencies)
