@@ -134,6 +134,7 @@ header ul.git {
 header ul.nav {
   position: relative;
   float: right;
+  margin-right: -10px;
 }
 header ul:before {
   content: '';
