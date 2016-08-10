@@ -108,7 +108,7 @@ header p.view small {
 }
 header ul {
   margin: 0;
-  padding: 0;
+  padding: -5px, 0px, 0px, 0px;
   list-style: none;
   z-index: 1;
   right: 20px;
