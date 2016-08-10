@@ -3,11 +3,8 @@ layout: default
 title: Platform Specifications
 category: info
 tags: build
+project: Shapeworks Studio
 ---
-<head>
-<link rel="shortcut icon" href="images/favicon.ico"/>
-</head>
-
 
 # Specifications
 
@@ -32,7 +29,7 @@ The code base has been tested for use with GCC, and this is the recommended comp
 
 ### Build from source
 
-ShapeworksStudio can be ([compiled]({{ site.github.url }}/build.html)) from source on Linux platforms (OpenSuSE, Ubuntu etc.), OSX, and Windows. It requires at least the following:
+{{ page.project }} can be ([compiled]({{ site.github.url }}/build.html)) from source on Linux platforms (OpenSuSE, Ubuntu etc.), OSX, and Windows. It requires at least the following:
 
 + C++11 64-bit compatible compiler
 + Git 1.8 or higher (https://git-scm.com/)

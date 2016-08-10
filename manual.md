@@ -1,13 +1,9 @@
 ---
+layout: default
 title: Usage Instructions
 category: info
 tags: manual
 ---
-<head>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <link rel="shortcut icon" href="images/favicon.ico"/>
-</head>
 
 # Table of Contents
 
