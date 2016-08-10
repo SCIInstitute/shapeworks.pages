@@ -133,7 +133,8 @@ header ul.git {
 }
 header ul.nav {
   position: relative;
-  text-align: left;
+  text-align: right;
+  font-size: 30px;
 }
 header ul:before {
   content: '';
