@@ -108,11 +108,11 @@ header p.view small {
 }
 header ul {
   margin: 0;
-  padding: -5px, 0px, 0px, 0px;
+  padding: 0;
   list-style: none;
   z-index: 1;
   right: 20px;
-  top: 20px;
+  top: 15px;
   height: 38px;
   padding: 1px 0;
   background: #5198DF;
@@ -133,8 +133,8 @@ header ul.git {
 }
 header ul.nav {
   position: relative;
-  text-align: right;
-  font-size: 30px;
+  float: right;
+  padding-bottom: 80px;
 }
 header ul:before {
   content: '';
