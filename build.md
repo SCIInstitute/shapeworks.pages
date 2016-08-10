@@ -2,12 +2,8 @@
 title: Build Instructions
 category: info
 tags: build
+layout: default
 ---
-<head>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <link rel="shortcut icon" href="images/favicon.ico"/>
-</head>
 
 # Table of Contents
 
