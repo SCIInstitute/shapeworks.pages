@@ -87,7 +87,7 @@ header p {
 }
 header p.nav {
   display: none;
-  font-weight: 700;
+  font-weight: 1400;
   text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
   -webkit-font-smoothing: antialiased;
 }
@@ -110,7 +110,8 @@ header ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  position: absolute;
+  position: relative;
+  float: right;
   z-index: 1;
   right: 20px;
   top: 20px;
