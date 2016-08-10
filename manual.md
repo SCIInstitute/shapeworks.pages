@@ -5,7 +5,7 @@ category: info
 tags: manual
 ---
 
-# Table of Contents
+## Table of Contents
 
 * [Running Shapeworks Studio](#running-shapeworks-studio)
     * [Data](#data)
@@ -39,7 +39,6 @@ or going to *File -> Import Images...* <br/> Your images will appear on the disp
 <br/><br/>
 You can delete images by selecting the image of choice and clicking the red "x" button at the bottom. If only one image 
 is loaded, it may still display when it is deleted. It will be replaced by the next image load. 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ## Groom 
@@ -141,12 +140,11 @@ between shapes.
 in decreasing values to depict statistical relevancy.
 <br/><br/>
 *Regression* This option is not yet available.
-<br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ## Rendering Window
 The render window has a few shortcuts to viewing options.
 <br/><br/>
-<img src="https://sciinstitute.github.io/shapeworks.pages/images/Render.png" align="right" hspace="20">
+<img src="https://sciinstitute.github.io/shapeworks.pages/images/Render.png" align="center">
 <br/>
 From left to right, here are the rendering options.
 <br/><br/>

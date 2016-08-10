@@ -5,7 +5,7 @@ tags: build
 layout: default
 ---
 
-# Table of Contents
+## Table of Contents
 
 * [Installing ShapeworksStudio from source](#installing-shapeworks-studio-from-source)
     * [Dependencies](#dependencies)

@@ -6,7 +6,7 @@ tags: build
 project: Shapeworks Studio
 ---
 
-# Specifications
+## Specifications
 
 ## Minimum recommended system configuration:
 
