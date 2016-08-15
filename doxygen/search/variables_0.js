@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['costs',['costs',['../struct_surface_point.html#a990ab2e22054dd335c37a4e6c2603a89',1,'SurfacePoint']]]
+  ['alignedbit',['AlignedBit',['../group__flags.html#ga157ebfd0ca896e8be3f3c7747fda4eee',1,'Eigen']]]
 ];

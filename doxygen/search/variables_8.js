@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['samplespacing',['SampleSpacing',['../class_custom_surface_reconstruction_filter.html#a7d7bc7dd4dae5b53753542d7338a7309',1,'CustomSurfaceReconstructionFilter']]]
+  ['userdata',['userData',['../class_ti_xml_base.html#ab242c01590191f644569fa89a080d97c',1,'TiXmlBase']]]
 ];

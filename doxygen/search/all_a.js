@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['n',['n',['../struct_surface_point.html#a7340adfd4f9ca70f37704ec4597ee5ff',1,'SurfacePoint']]],
-  ['neighborhoodsize',['NeighborhoodSize',['../class_custom_surface_reconstruction_filter.html#ae6431131cde60e385cf6a240e1af6f36',1,'CustomSurfaceReconstructionFilter']]],
-  ['neighbors',['neighbors',['../struct_surface_point.html#a3f75ac98e7aabcdd06345d8b7b74c7a8',1,'SurfacePoint']]],
-  ['new',['New',['../class_custom_surface_reconstruction_filter.html#ad840aadeb529f6fe05e0b01da1f6fcd6',1,'CustomSurfaceReconstructionFilter']]],
-  ['normalizedgroupdifference',['NormalizedGroupDifference',['../class_particle_shape_statistics.html#aa2825eea8c6e745496557e1cba6becc5',1,'ParticleShapeStatistics']]],
-  ['numberofdimensions',['NumberOfDimensions',['../class_particle_shape_statistics.html#ae7707ac5fb3fe8903c7eefcfbaafeebf',1,'ParticleShapeStatistics']]]
+  ['jacobiantype',['JacobianType',['../classitk_1_1_compactly_supported_r_b_f_sparse_kernel_transform.html#afe8c57417779553520edc8ef67723018',1,'itk::CompactlySupportedRBFSparseKernelTransform::JacobianType()'],['../classitk_1_1_sparse_kernel_transform.html#a5fb63e7157e269080d95328103b2e63e',1,'itk::SparseKernelTransform::JacobianType()']]],
+  ['jacobirotation',['JacobiRotation',['../class_eigen_1_1_jacobi_rotation.html#a38fec2c4da529ef3d05ff37b848b4227',1,'Eigen::JacobiRotation::JacobiRotation()'],['../class_eigen_1_1_jacobi_rotation.html#a3e8b5dc0a56f7a2d0f788b1ccb1547cb',1,'Eigen::JacobiRotation::JacobiRotation(const Scalar &amp;c, const Scalar &amp;s)']]],
+  ['jacobirotation',['JacobiRotation',['../class_eigen_1_1_jacobi_rotation.html',1,'Eigen']]],
+  ['jacobisvd',['JacobiSVD',['../class_eigen_1_1_jacobi_s_v_d.html',1,'Eigen']]],
+  ['jacobisvd',['jacobiSvd',['../class_eigen_1_1_matrix_base.html#a662630cec4376bb127527856382828a9',1,'Eigen::MatrixBase::jacobiSvd()'],['../class_eigen_1_1_jacobi_s_v_d.html#a55315ab9cd060019a5ad07be798ff3b9',1,'Eigen::JacobiSVD::JacobiSVD()'],['../class_eigen_1_1_jacobi_s_v_d.html#a5d9ea7c8f361337727260efd77ee03ac',1,'Eigen::JacobiSVD::JacobiSVD(Index rows, Index cols, unsigned int computationOptions=0)'],['../class_eigen_1_1_jacobi_s_v_d.html#abfd1dd454a6e3edec7feecd97c818a78',1,'Eigen::JacobiSVD::JacobiSVD(const MatrixType &amp;matrix, unsigned int computationOptions=0)']]]
 ];

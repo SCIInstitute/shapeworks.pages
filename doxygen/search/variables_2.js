@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['groom_5fc',['GROOM_C',['../class_project.html#a540ff4237b861a21b0c5c958f77ce365',1,'Project']]]
+  ['evalbeforeassigningbit',['EvalBeforeAssigningBit',['../group__flags.html#ga9e8cc99f33fd2f5d89c3b6c83fb2dc48',1,'Eigen']]],
+  ['evalbeforenestingbit',['EvalBeforeNestingBit',['../group__flags.html#gaa34e83bae46a8eeae4e69ebe3aaecbed',1,'Eigen']]]
 ];

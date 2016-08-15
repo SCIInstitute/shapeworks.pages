@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['viewerhandle',['ViewerHandle',['../_viewer_8h.html#ae5f841d27c645dc6bda6ccd2b8effcf5',1,'Viewer.h']]],
-  ['viewerlist',['ViewerList',['../_viewer_8h.html#a9d2ccb61b34901f049ddfdb1fefa58b1',1,'Viewer.h']]],
-  ['visualizerhandle',['VisualizerHandle',['../_visualizer_8h.html#aca3314fb47fd97ea379d7e5ccf72396e',1,'Visualizer.h']]]
+  ['jacobiantype',['JacobianType',['../classitk_1_1_compactly_supported_r_b_f_sparse_kernel_transform.html#afe8c57417779553520edc8ef67723018',1,'itk::CompactlySupportedRBFSparseKernelTransform::JacobianType()'],['../classitk_1_1_sparse_kernel_transform.html#a5fb63e7157e269080d95328103b2e63e',1,'itk::SparseKernelTransform::JacobianType()']]]
 ];
