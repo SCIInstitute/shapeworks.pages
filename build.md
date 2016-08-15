@@ -83,7 +83,8 @@ Configure with:
 ``` BUILD_EXAMPLES=FALSE ``` <br/>
 ``` BUILD_TESTING=FALSE ``` <br/>
 <br/>
-Then build VTK.
+Then build VTK. **Note** Be sure that you are linking VTK with the
+same Qt5 Library you are using to build Studio.
 <br/><br/>
 ``` make -j12 all ```
 <br/><br/>
