@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Eigen::internal::triangular\l_assignment_selector\< Derived1,\l Derived2, SelfAdjoint\|Upper,\l 0, ClearOpposite \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_eigen_1_1internal_1_1triangular__assignment__selector_3_01_derived1_00_01_derived2_00_01_fbf563ad0c83a2d1b662542a69ca24d6.html"];
+}

@@ -1,0 +1,16 @@
+digraph "C:/Users/Brig/Documents/ShapeWorksStudio/src" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_68267d1309a1af8e8297ef4c3efbcdba {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+    dir_68267d1309a1af8e8297ef4c3efbcdba [shape=plaintext label="src"];
+    dir_378992324979dd2b2ee7a83cc14dc244 [shape=box label="Application" color="red" fillcolor="white" style="filled" URL="dir_378992324979dd2b2ee7a83cc14dc244.html"];
+    dir_f2bd949b12e99440a577bc98b5c915d9 [shape=box label="CLT" color="black" fillcolor="white" style="filled" URL="dir_f2bd949b12e99440a577bc98b5c915d9.html"];
+    dir_ecc51bf91eb6af812f56919860690cba [shape=box label="Groom" color="black" fillcolor="white" style="filled" URL="dir_ecc51bf91eb6af812f56919860690cba.html"];
+    dir_b573e4f5c38cd1fa93fe5af162774309 [shape=box label="Optimize" color="black" fillcolor="white" style="filled" URL="dir_b573e4f5c38cd1fa93fe5af162774309.html"];
+    dir_44de7c361c2f7892713ce46336cd49e6 [shape=box label="ParticleShapeworks" color="red" fillcolor="white" style="filled" URL="dir_44de7c361c2f7892713ce46336cd49e6.html"];
+    dir_9cab3c205b7e68d3218b57f248ea15fc [shape=box label="Surfworks" color="red" fillcolor="white" style="filled" URL="dir_9cab3c205b7e68d3218b57f248ea15fc.html"];
+    dir_bd7e062db36f9052ba9869fc5841d828 [shape=box label="TinyXML" color="black" fillcolor="white" style="filled" URL="dir_bd7e062db36f9052ba9869fc5841d828.html"];
+  }
+}

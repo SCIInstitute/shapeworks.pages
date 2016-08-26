@@ -1,0 +1,11 @@
+digraph "C:/Users/Brig/Documents/ShapeWorksStudio/src/Application/Visualization" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_378992324979dd2b2ee7a83cc14dc244 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Application" fontname="Helvetica", fontsize="10", URL="dir_378992324979dd2b2ee7a83cc14dc244.html"]
+  dir_9f95940fb7224afdc2bbc92462d65db1 [shape=box, label="Visualization", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_9f95940fb7224afdc2bbc92462d65db1.html"];
+  }
+  dir_02598d5a4282d345b935d4d08b10eb54 [shape=box label="Data" URL="dir_02598d5a4282d345b935d4d08b10eb54.html"];
+  dir_9f95940fb7224afdc2bbc92462d65db1->dir_02598d5a4282d345b935d4d08b10eb54 [headlabel="1", labeldistance=1.5 headhref="dir_000007_000003.html"];
+}

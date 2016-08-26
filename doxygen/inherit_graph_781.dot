@@ -1,0 +1,11 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="InnerIterator",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Eigen::internal::sparse\l_diagonal_product_inner\l_iterator_selector\< Lhs,\l Rhs, SparseDiagonalProductType,\l SDP_IsDiagonal, SDP_IsSparseRowMajor \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1internal_1_1sparse__diagonal__product__inner__iterator__selector_3_01_lhs_00_01_raf770041248098927054edb13b057459.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Eigen::internal::sparse\l_diagonal_product_inner\l_iterator_selector\< Lhs,\l Rhs, SparseDiagonalProductType,\l SDP_IsSparseColMajor, SDP_IsDiagonal \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1internal_1_1sparse__diagonal__product__inner__iterator__selector_3_01_lhs_00_01_r584de0ca80d9f76b4cc29c94af0f60b4.html"];
+}

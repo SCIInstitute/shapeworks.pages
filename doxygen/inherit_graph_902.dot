@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Eigen::internal::traits\l\< Transpositions\< SizeAtCompile\lTime, MaxSizeAtCompileTime,\l IndexType \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_eigen_1_1internal_1_1traits_3_01_transpositions_3_01_size_at_compile_time_00_01_max_size_93c4624d273f61ccd9eb403770d3044a.html"];
+}

@@ -1,0 +1,11 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Eigen::TranspositionsBase\l\< Transpositions\< SizeAtCompile\lTime, MaxSizeAtCompileTime,\l IndexType \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_transpositions_base.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Eigen::Transpositions\l\< SizeAtCompileTime,\l MaxSizeAtCompileTime,\l IndexType \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_transpositions.html",tooltip="Represents a sequence of transpositions (row/column interchange) "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Eigen::Transpositions\l\< RowsAtCompileTime,\l MaxRowsAtCompileTime \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_transpositions.html"];
+}

@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Eigen::internal::traits\l\< ProductBase\< SelfadjointProduct\lMatrix\< Lhs, LhsMode, false,\l Rhs, RhsMode, false \>, Lhs, Rhs \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_eigen_1_1internal_1_1traits.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Eigen::internal::traits\l\< SelfadjointProductMatrix\l\< Lhs, LhsMode, false, Rhs,\l RhsMode, false \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_eigen_1_1internal_1_1traits_3_01_selfadjoint_product_matrix_3_01_lhs_00_01_lhs_mode_00_0109f98c651cab472bbf42ccc7675fb775.html"];
+}

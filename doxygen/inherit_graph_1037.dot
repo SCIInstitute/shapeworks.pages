@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Eigen::MatrixBase\<\l Derived \>::cross_product\l_return_type\< OtherDerived \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_eigen_1_1_matrix_base_1_1cross__product__return__type.html"];
+}

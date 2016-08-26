@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Eigen::internal::quat\l_product\< Architecture\l::SSE, Derived, OtherDerived,\l double, Aligned \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_eigen_1_1internal_1_1quat__product_3_01_architecture_1_1_s_s_e_00_01_derived_00_01_other_3a19166ab6815406210b71483cea10be.html"];
+}

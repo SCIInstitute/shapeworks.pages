@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Eigen::internal::traits\l\< transposition_matrix\l_product_retval\< Transposition\lType, MatrixType, Side, Transposed \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_eigen_1_1internal_1_1traits_3_01transposition__matrix__product__retval_3_01_transposition0cf656eb56518a280f7b8c96afe9a24c.html"];
+}

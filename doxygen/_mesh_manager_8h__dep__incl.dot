@@ -1,0 +1,41 @@
+digraph "C:/Users/Brig/Documents/ShapeWorksStudio/src/Application/Data/MeshManager.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="C:/Users/Brig/Documents\l/ShapeWorksStudio/src\l/Application/Data/MeshManager.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="C:/Users/Brig/Documents\l/ShapeWorksStudio/src\l/Application/Data/MeshManager.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_mesh_manager_8cc_source.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="C:/Users/Brig/Documents\l/ShapeWorksStudio/src\l/Application/Data/Project.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_project_8cc_source.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="C:/Users/Brig/Documents\l/ShapeWorksStudio/src\l/Application/Data/Project.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_project_8h_source.html"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="C:/Users/Brig/Documents\l/ShapeWorksStudio/src\l/Application/Analysis/Analysis\lTool.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_analysis_tool_8cc_source.html"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="C:/Users/Brig/Documents\l/ShapeWorksStudio/src\l/Application/Groom/GroomTool.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_groom_tool_8cc_source.html"];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="C:/Users/Brig/Documents\l/ShapeWorksStudio/src\l/Application/Optimize/Optimize\lTool.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_optimize_tool_8cc_source.html"];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="C:/Users/Brig/Documents\l/ShapeWorksStudio/src\l/Application/Visualization\l/ShapeWorksStudioApp.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_shape_works_studio_app_8cc_source.html"];
+  Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="C:/Users/Brig/Documents\l/ShapeWorksStudio/src\l/Application/Visualization\l/ShapeworksWorker.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_shapeworks_worker_8h_source.html"];
+  Node9 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="C:/Users/Brig/Documents\l/ShapeWorksStudio/src\l/Application/Visualization\l/ShapeworksWorker.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_shapeworks_worker_8cc_source.html"];
+  Node4 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="C:/Users/Brig/Documents\l/ShapeWorksStudio/src\l/Application/Visualization\l/Visualizer.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_visualizer_8h_source.html"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="C:/Users/Brig/Documents\l/ShapeWorksStudio/src\l/Application/Analysis/Analysis\lTool.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_analysis_tool_8h_source.html"];
+  Node12 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="C:/Users/Brig/Documents\l/ShapeWorksStudio/src\l/Application/Visualization\l/Lightbox.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_lightbox_8cc_source.html"];
+  Node11 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="C:/Users/Brig/Documents\l/ShapeWorksStudio/src\l/Application/Visualization\l/Visualizer.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_visualizer_8cc_source.html"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

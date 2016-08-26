@@ -1,0 +1,19 @@
+digraph "C:/Users/Brig/Documents/ShapeWorksStudio/src/Application" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_68267d1309a1af8e8297ef4c3efbcdba {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"]
+  subgraph clusterdir_378992324979dd2b2ee7a83cc14dc244 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_378992324979dd2b2ee7a83cc14dc244.html"];
+    dir_378992324979dd2b2ee7a83cc14dc244 [shape=plaintext label="Application"];
+    dir_e8e9f8f8de0186e0d05d15ccde233d4d [shape=box label="Analysis" color="black" fillcolor="white" style="filled" URL="dir_e8e9f8f8de0186e0d05d15ccde233d4d.html"];
+    dir_02598d5a4282d345b935d4d08b10eb54 [shape=box label="Data" color="black" fillcolor="white" style="filled" URL="dir_02598d5a4282d345b935d4d08b10eb54.html"];
+    dir_4daaae5680eb6a477253d015d54940d8 [shape=box label="Groom" color="black" fillcolor="white" style="filled" URL="dir_4daaae5680eb6a477253d015d54940d8.html"];
+    dir_7f92ed8e7ce627fe192ec00ca3cf1570 [shape=box label="Optimize" color="black" fillcolor="white" style="filled" URL="dir_7f92ed8e7ce627fe192ec00ca3cf1570.html"];
+    dir_6236c3bea9f2eddeb67aa64f65220bca [shape=box label="Resources" color="black" fillcolor="white" style="filled" URL="dir_6236c3bea9f2eddeb67aa64f65220bca.html"];
+    dir_9f95940fb7224afdc2bbc92462d65db1 [shape=box label="Visualization" color="black" fillcolor="white" style="filled" URL="dir_9f95940fb7224afdc2bbc92462d65db1.html"];
+  }
+  }
+  dir_9f95940fb7224afdc2bbc92462d65db1->dir_02598d5a4282d345b935d4d08b10eb54 [headlabel="1", labeldistance=1.5 headhref="dir_000007_000003.html"];
+}

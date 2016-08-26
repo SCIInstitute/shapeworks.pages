@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="MatrixTypeReverseIterator",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Eigen::CwiseUnaryViewImpl\l\< ViewOp, MatrixType, Sparse\l \>::ReverseInnerIterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_cwise_unary_view_impl_3_01_view_op_00_01_matrix_type_00_01_sparse_01_4_1_1_reverse_inner_iterator.html"];
+}

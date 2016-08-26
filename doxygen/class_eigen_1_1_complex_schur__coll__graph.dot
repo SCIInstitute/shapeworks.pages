@@ -1,0 +1,26 @@
+digraph "Eigen::ComplexSchur&lt; _MatrixType &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Eigen::ComplexSchur\l\< _MatrixType \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_matT\nm_matU" ,fontname="Helvetica"];
+  Node2 [label="Eigen::Matrix\< ComplexScalar,\l RowsAtCompileTime, ColsAtCompile\lTime, Options, MaxRowsAtCompileTime,\l MaxColsAtCompileTime \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_matrix.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Eigen::PlainObjectBase\l\< Matrix\< ComplexScalar,\l _Rows, _Cols, _Options,\l _MaxRows, _MaxCols \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_plain_object_base.html",tooltip="Dense storage base class for matrices and arrays. "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="internal::dense_xpr\l_base::type\< Derived \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_storage" ,fontname="Helvetica"];
+  Node5 [label="Eigen::DenseStorage\l\< Scalar, Base::MaxSizeAtCompile\lTime, Base::RowsAtCompileTime,\l Base::ColsAtCompileTime, Options \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_dense_storage.html"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_hess" ,fontname="Helvetica"];
+  Node6 [label="Eigen::HessenbergDecomposition\l\< MatrixType \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_hessenberg_decomposition.html"];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_hCoeffs" ,fontname="Helvetica"];
+  Node7 [label="Eigen::Matrix\< Scalar,\l SizeMinusOne, 1, Options\l &~RowMajor, MaxSizeMinusOne, 1 \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_matrix.html"];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Eigen::PlainObjectBase\l\< Matrix\< Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_plain_object_base.html",tooltip="Dense storage base class for matrices and arrays. "];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_storage" ,fontname="Helvetica"];
+  Node9 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_temp" ,fontname="Helvetica"];
+  Node9 [label="Eigen::Matrix\< Scalar,\l 1, Size, Options\|RowMajor,\l 1, MaxSize \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_matrix.html"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

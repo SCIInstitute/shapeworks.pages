@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Eigen::internal::qr\l_preconditioner_impl\l\< MatrixType, FullPivHouseholder\lQRPreconditioner, PreconditionIfMore\lColsThanRows, true \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1internal_1_1qr__preconditioner__impl_3_01_matrix_type_00_01_full_piv_householder_0bfd000ff4c8127883e77da4144b4435.html"];
+}

@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Eigen::internal::assign\l_impl\< Derived1, Derived2,\l LinearVectorizedTraversal,\l NoUnrolling, Version \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_eigen_1_1internal_1_1assign__impl_3_01_derived1_00_01_derived2_00_01_linear_vectorized_tra388dd065f375346509f65e80d42cf40.html"];
+}

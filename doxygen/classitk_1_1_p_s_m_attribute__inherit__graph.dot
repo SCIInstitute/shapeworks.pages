@@ -1,0 +1,25 @@
+digraph "itk::PSMAttribute&lt; VDimension &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="itk::PSMAttribute\<\l VDimension \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DataObject",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="itk::PSMContainerArrayAttribute\l\< VDimension \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classitk_1_1_p_s_m_container_array_attribute.html"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="itk::TestContainerArrayAttribute\l\< T, VDimension \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classitk_1_1_test_container_array_attribute.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="itk::PSMShapeMatrixAttribute\l\< VDimension \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classitk_1_1_p_s_m_shape_matrix_attribute.html",tooltip="Each column describes a shape. A shape may be composed of m_DomainsPerShape domains (default 1)..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="itk::PSMMixedEffectsShape\lMatrixAttribute\< T, VDimension \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classitk_1_1_p_s_m_mixed_effects_shape_matrix_attribute.html"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="itk::PSMRegressionShapeMatrix\lAttribute\< T, VDimension \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classitk_1_1_p_s_m_regression_shape_matrix_attribute.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="PSMContainerArrayAttribute\l\< double, Dimension \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classitk_1_1_p_s_m_container_array_attribute.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="PSMContainerArrayAttribute\l\< TNumericType, VDimension \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classitk_1_1_p_s_m_container_array_attribute.html"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="itk::PSMMeanCurvatureAttribute\l\< TNumericType, VDimension \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classitk_1_1_p_s_m_mean_curvature_attribute.html"];
+}

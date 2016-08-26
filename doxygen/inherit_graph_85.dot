@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Eigen::ei_transform\l_product_impl\< Other,\l Dim, HDim, HDim, 1 \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_eigen_1_1ei__transform__product__impl_3_01_other_00_01_dim_00_01_h_dim_00_01_h_dim_00_011_01_4.html"];
+}

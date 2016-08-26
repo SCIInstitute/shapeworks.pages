@@ -1,0 +1,31 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QObject",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Lightbox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_lightbox.html",tooltip="Display multiple Viewers in a tiled display. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MeshManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_mesh_manager.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MeshWorker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_mesh_worker.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Preferences",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_preferences.html",tooltip="Application preferences. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Project",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_project.html",tooltip="Representation of a project. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QGroom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_groom.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QOptimize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_optimize.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ShapeworksWorker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_shapeworks_worker.html"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Visualizer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_visualizer.html",tooltip="Controls display of objects in viewers. "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="WheelEventForwarder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wheel_event_forwarder.html"];
+  Node12 [label="ShapeWorksGroom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_shape_works_groom.html"];
+  Node12 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ShapeWorksOptimize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_shape_works_optimize.html"];
+  Node13 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

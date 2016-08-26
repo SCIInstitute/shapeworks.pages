@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Eigen::internal::sparse\l_cwise_binary_op_inner\l_iterator_selector\< BinaryOp,\l Lhs, Rhs, CwiseBinaryOpImpl\l\< BinaryOp, Lhs, Rhs, Sparse\l \>::InnerIterator \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1internal_1_1sparse__cwise__binary__op__inner__iterator__selector.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Eigen::CwiseBinaryOpImpl\l\< BinaryOp, Lhs, Rhs, Sparse\l \>::InnerIterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_cwise_binary_op_impl_3_01_binary_op_00_01_lhs_00_01_rhs_00_01_sparse_01_4_1_1_inner_iterator.html"];
+}

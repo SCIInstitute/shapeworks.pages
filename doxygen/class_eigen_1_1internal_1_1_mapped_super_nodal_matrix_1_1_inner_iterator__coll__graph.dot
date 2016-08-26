@@ -1,0 +1,11 @@
+digraph "Eigen::internal::MappedSuperNodalMatrix&lt; _Scalar, _Index &gt;::InnerIterator"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Eigen::internal::MappedSuper\lNodalMatrix\< _Scalar, _Index\l \>::InnerIterator",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_idrow\nm_endidrow\nm_idval" ,fontname="Helvetica"];
+  Node2 [label="_Index",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_matrix" ,fontname="Helvetica"];
+  Node3 [label="Eigen::internal::MappedSuper\lNodalMatrix\< _Scalar, _Index \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1internal_1_1_mapped_super_nodal_matrix.html",tooltip="a class to manipulate the L supernodal factor from the SparseLU factorization "];
+  Node2 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_row\nm_nsuper\nm_col" ,fontname="Helvetica"];
+}

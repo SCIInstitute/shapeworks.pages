@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ImageToImageFilter",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="itk::PSMCleanAndCenterLabel\lMapImageFilter\< TImage \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classitk_1_1_p_s_m_clean_and_center_label_map_image_filter.html",tooltip="Process an input segmentation to produce an isotropically spaced version with holes filled and center..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="itk::PSMImplicitSurfaceImage\lFilter\< TInputImage, TOutputImage \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classitk_1_1_p_s_m_implicit_surface_image_filter.html",tooltip="This filter generates an antialiased and smoothed signed distance transform from the input label map ..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="itk::PSMTrimLabelMapImage\lFilter\< TImage \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classitk_1_1_p_s_m_trim_label_map_image_filter.html",tooltip="Process an input segmentation to produce an automatically cropped version with holes filled and cente..."];
+}

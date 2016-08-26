@@ -1,0 +1,31 @@
+digraph "Eigen::PastixLDLT&lt; _MatrixType, _UpLo &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Eigen::PastixLDLT\<\l _MatrixType, _UpLo \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Eigen::PastixBase\<\l PastixLDLT\< _MatrixType,\l _UpLo \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_pastix_base.html"];
+  Node3 -> Node2 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Eigen::internal::noncopyable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1internal_1_1noncopyable.html"];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_iparm" ,fontname="Helvetica"];
+  Node4 [label="Eigen::Matrix\< int,\l IPARM_SIZE, 1 \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_matrix.html"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Eigen::PlainObjectBase\l\< Matrix\< int, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_plain_object_base.html",tooltip="Dense storage base class for matrices and arrays. "];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="internal::dense_xpr\l_base::type\< Derived \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_storage" ,fontname="Helvetica"];
+  Node7 [label="Eigen::DenseStorage\l\< Scalar, Base::MaxSizeAtCompile\lTime, Base::RowsAtCompileTime,\l Base::ColsAtCompileTime, Options \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_dense_storage.html"];
+  Node8 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_dparm" ,fontname="Helvetica"];
+  Node8 [label="Eigen::Matrix\< double,\l DPARM_SIZE, 1 \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_matrix.html"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Eigen::PlainObjectBase\l\< Matrix\< double, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_plain_object_base.html",tooltip="Dense storage base class for matrices and arrays. "];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_storage" ,fontname="Helvetica"];
+  Node10 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_invp\nm_perm" ,fontname="Helvetica"];
+  Node10 [label="Eigen::Matrix\< Index,\l Dynamic, 1 \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_matrix.html"];
+  Node11 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Eigen::PlainObjectBase\l\< Matrix\< Index, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_eigen_1_1_plain_object_base.html",tooltip="Dense storage base class for matrices and arrays. "];
+  Node6 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_storage" ,fontname="Helvetica"];
+}
