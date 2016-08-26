@@ -21,7 +21,6 @@ tags: manual
 * [Contact and Bug Reports](#contact-and-bug-reports)
 
 # Running Shapeworks Studio
-test test
 Studio runs with no command-line arguments. 
 <br/><br/>
 You Should have a Qt window that looks similar to the one below.
